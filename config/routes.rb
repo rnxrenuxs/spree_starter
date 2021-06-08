@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # Spree routes
-  mount Spree::Core::Engine, at: '/'
+  mount Spree::Core::Engine, at: '/admin'
 
   # sidekiq web UI
   require 'sidekiq/web'
